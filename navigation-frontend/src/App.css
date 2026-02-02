@@ -1,0 +1,34 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f6f9;
+  font-size: 18px; /* base text size increased */
+}
+
+/* Page spacing */
+.page {
+  padding: 4rem 1rem;
+  min-height: calc(100vh - 56px);
+}
+
+/* Headings */
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+/* Cards */
+.card {
+  border-radius: 14px;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.6rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}

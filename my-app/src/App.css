@@ -1,0 +1,58 @@
+.header {
+  background: #0f172a;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.logo {
+  font-size: 1.2rem;
+}
+
+.links a {
+  margin-left: 20px;
+  color: #cbd5f5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.links a.active {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.page {
+  animation: fade 0.2s ease-in;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
